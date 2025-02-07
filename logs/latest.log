@@ -1,0 +1,107 @@
+[21:22:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6; Homebrew Homebrew) on Mac OS X 13.4 (aarch64)
+[21:22:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) for Minecraft 1.21.4
+[21:22:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:22:23] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
+[21:22:25] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 1572ms.
+[21:22:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[21:22:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - Geyser-Spigot (2.6.0-SNAPSHOT), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[21:22:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:22:27] [ServerMain/INFO]: Loaded 1370 recipes
+[21:22:27] [ServerMain/INFO]: Loaded 1481 advancements
+[21:22:28] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[21:22:28] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 119.9ms
+[21:22:28] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[21:22:28] [Server thread/INFO]: Loading properties
+[21:22:28] [Server thread/INFO]: This server is running Paper version 1.21.4-138-main@5395ae3 (2025-02-02T21:42:11Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[21:22:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:22:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:22:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:22:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[21:22:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:22:29] [Server thread/INFO]: Default game type: SURVIVAL
+[21:22:29] [Server thread/INFO]: Generating keypair
+[21:22:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:22:29] [Server thread/INFO]: Using default channel type
+[21:22:29] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[21:22:29] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[21:22:29] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:22:30] [Server thread/INFO]: [floodgate] Took 494ms to boot Floodgate
+[21:22:30] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[21:22:30] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:22:30] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:22:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:22:30] [Server thread/INFO]: Preparing level "world"
+[21:22:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:22:31] [Server thread/INFO]: Preparing spawn area: 0%
+[21:22:31] [Server thread/INFO]: Time elapsed: 400 ms
+[21:22:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:22:31] [Server thread/INFO]: Preparing spawn area: 0%
+[21:22:31] [Server thread/INFO]: Time elapsed: 55 ms
+[21:22:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:22:31] [Server thread/INFO]: Preparing spawn area: 0%
+[21:22:31] [Server thread/INFO]: Time elapsed: 35 ms
+[21:22:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:22:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[21:22:31] [Server thread/INFO]: [spark] Starting background profiler...
+[21:22:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:22:32] [Server thread/INFO]: [Geyser-Spigot] 
+[21:22:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b756 (git-master-b96f915)
+[21:22:32] [Server thread/INFO]: [Geyser-Spigot] 
+[21:22:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:22:34] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[21:22:34] [Server thread/INFO]: [Geyser-Spigot] Done (1.978s)! Run /geyser help for help!
+[21:22:34] [Server thread/INFO]: Done preparing level "world" (3.432s)
+[21:22:34] [Server thread/INFO]: Running delayed init tasks
+[21:22:34] [Server thread/INFO]: Done (11.951s)! For help, type "help"
+[21:22:34] [ForkJoinPool.commonPool-worker-11/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
+[21:22:34] [ForkJoinPool.commonPool-worker-11/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
+[21:22:35] [ForkJoinPool.commonPool-worker-11/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[21:24:12] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username rrslider
+[21:24:12] [localSession-7-2/INFO]: [Geyser-Spigot] rrslider (logged in as: rrslider) has connected to the Java server
+[21:24:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .rrslider joined (UUID: 00000000-0000-0000-0009-01f1e54cce26)
+[21:24:13] [Server thread/INFO]: .rrslider joined the game
+[21:24:13] [Server thread/INFO]: .rrslider[/192.168.7.154:0] logged in with entity id 20 at ([world]4.5, 79.0, -6.5)
+[21:28:21] [Server thread/INFO]: Stopping server
+[21:28:21] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[21:28:21] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:28:21] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[21:28:21] [localSession-7-2/INFO]: [Geyser-Spigot] rrslider has disconnected from the Java server because of Geyser Proxy shutting down.
+[21:28:21] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[21:28:21] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .rrslider disconnected
+[21:28:21] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:28:21] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:28:21] [Server thread/INFO]: Saving players
+[21:28:21] [Server thread/INFO]: .rrslider lost connection: Server closed
+[21:28:21] [Server thread/INFO]: .rrslider left the game
+[21:28:21] [Server thread/INFO]: Saving worlds
+[21:28:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:28:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:28:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:28:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:28:21] [WebSocketConnectReadThread-100/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Saved 2097 block chunks, 708 entity chunks, 4 poi chunks in world 'world' in 0.66s
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[21:28:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[21:28:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[21:28:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[21:28:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:28:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:28:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:28:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:28:22] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[21:28:22] [Server thread/INFO]: All I/O tasks to complete
+[21:28:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:28:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
