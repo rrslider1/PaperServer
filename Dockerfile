@@ -19,4 +19,4 @@ COPY world/ ./world/
 EXPOSE 25565/tcp 19132/udp
 
 # Start the Paper server
-CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "paper-1.21.4-138.jar", "nogui"]
+CMD ["./entrypoint.sh"]
