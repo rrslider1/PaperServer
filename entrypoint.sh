@@ -1,14 +1,22 @@
 #!/bin/bash
+set -e  # Exit immediately if a command exits with a non-zero status.
+set -x  # Print each command before executing it.
 
-# Check if the PORT environment variable is set
+echo "Starting entrypoint.sh..."
+echo "Current environment variables:"
+env
+
+# If the PORT environment variable is set, update server.properties
 if [ -n "$PORT" ]; then
   echo "Setting server port to $PORT"
-  # Update the server.properties file to set the server-port to the dynamic port
-  sed -i "s/^server-port=.*/server-port=$PORT/" server.properties
+  # Create a backup (optional) and update the port
+  sed -i.bak "s/^server-port=.*/server-port=$PORT/" server.properties
+else
+  echo "PORT environment variable is not set; using default server port in server.properties."
 fi
 
-# Optionally, print the updated server.properties for debugging
+echo "server.properties content after update:"
 cat server.properties
 
-# Start the Paper server
+# Start the Paper server with limited memory
 exec java -Xmx512M -Xms512M -jar paper-1.21.4-138.jar nogui
